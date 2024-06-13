@@ -1,17 +1,17 @@
 {
-    "name": "cchernandez/payments",
+    "name": "jn-devops/payments",
     "description": "Homeful Payments Package",
     "keywords": [
         "Homeful",
         "laravel",
         "payments"
     ],
-    "homepage": "https://github.com/cchernandez/payments",
+    "homepage": "https://github.com/jn-devops/payments",
     "license": "MIT",
     "authors": [
         {
-            "name": "Charles Hernandez",
-            "email": "cchernandez@joy-nostalg.com",
+            "name": "Lester B. Hurtado",
+            "email": "jn-devops@joy-nostalg.com",
             "role": "Developer"
         }
     ],

@@ -8,10 +8,11 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('payments_table', function (Blueprint $table) {
+        Schema::create('payments', function (Blueprint $table) {
             $table->id();
 
             // add fields
+            $table->float('amount');
 
             $table->timestamps();
         });
