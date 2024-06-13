@@ -2,9 +2,9 @@
 
 namespace Homeful\Payments;
 
+use Homeful\Payments\Commands\PaymentsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Homeful\Payments\Commands\PaymentsCommand;
 
 class PaymentsServiceProvider extends PackageServiceProvider
 {

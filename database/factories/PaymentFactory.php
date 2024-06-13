@@ -2,8 +2,8 @@
 
 namespace Homeful\Payments\Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Homeful\Payments\Models\Payment;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class PaymentFactory extends Factory
 {
@@ -12,7 +12,7 @@ class PaymentFactory extends Factory
     public function definition()
     {
         return [
-            'amount'=>$this->faker->numberBetween(10,100)
+            'amount' => $this->faker->numberBetween(10, 100),
         ];
     }
 }
